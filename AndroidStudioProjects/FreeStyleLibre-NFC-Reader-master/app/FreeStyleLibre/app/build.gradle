@@ -1,0 +1,26 @@
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.socialdiabetes.freestylelibre"
+        minSdkVersion
+        targetSdkVersion 29
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implemntation 'com.android.support:support-v4:19.1.0'
+
+
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Foot">
+
+<!--    <ImageView-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/foot"-->
+<!--        android:id="@+id/f"-->
+
+<!--        />-->
+
+
+    <ImageView
+        android:id="@+id/p1color"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginRight="252dp"
+        android:src="@color/pressurecolor"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<!--        android:background="#E00F4A"-->
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginRight="124dp"
+        android:background="#AAA8A9"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="336dp"
+        android:layout_marginRight="112dp"
+        android:text="pressure ="
+        android:textSize="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/temptxt"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginRight="64dp"
+        android:textSize="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/pressuretxt"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginRight="64dp"
+        android:textSize="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="404dp"
+        android:layout_marginRight="112dp"
+        android:text="temperature ="
+        android:textSize="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/care"
+
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="488dp"
+
+        android:layout_marginRight="104dp"
+        android:background="@drawable/btn_bg_selector"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:text="Daily Care"
+        android:textColor="#ECF1F1"
+        android:textSize="15dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <Button-->
+<!--        android:id="@+id/green"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="228dp"-->
+<!--        android:layout_marginRight="48dp"-->
+<!--        android:text="green"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/yellow"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="yellow"-->
+<!--        tools:layout_editor_absoluteX="93dp"-->
+<!--        tools:layout_editor_absoluteY="230dp"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+#Fri Feb 14 02:03:35 EET 2020
+base.0=/home/noha/AndroidStudioProjects/DiabeticGuard/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

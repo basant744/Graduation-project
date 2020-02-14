@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "551528554513",
+    "firebase_url": "https://graduation-project-e1f14.firebaseio.com",
+    "project_id": "graduation-project-e1f14",
+    "storage_bucket": "graduation-project-e1f14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551528554513:android:f0dad18e4990e4f85511b0",
+        "android_client_info": {
+          "package_name": "com.example.diabeticguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551528554513-ie7053g8r70k33nfp2ve214s9b6prf6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChnGXeN5xFIE0HQmEXns3C7lFSv6noU34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551528554513-ie7053g8r70k33nfp2ve214s9b6prf6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

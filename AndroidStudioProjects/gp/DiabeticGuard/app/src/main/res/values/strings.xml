@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Diabetic Guard</string>
+    <string name="spiner">Diabetes Type</string>
+    <string name="ingredient">Ingredient</string>
+</resources>
+

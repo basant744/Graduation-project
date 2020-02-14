@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".food">
+
+<!--    <Button-->
+<!--        android:id="@+id/takephoto"-->
+
+<!--        android:layout_width="209dp"-->
+<!--        android:layout_height="82dp"-->
+<!--        android:layout_marginTop="212dp"-->
+
+<!--        android:layout_marginRight="116dp"-->
+<!--        android:background="@drawable/food"-->
+<!--        android:shadowColor="#A8A8A8"-->
+<!--        android:shadowDx="0"-->
+<!--        android:shadowDy="0"-->
+<!--        android:shadowRadius="2"-->
+<!--        android:text="Take picture"-->
+<!--        android:textColor="#ECF1F1"-->
+<!--        android:textSize="15dp"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <Button
+        android:id="@+id/Ask"
+
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="380dp"
+
+        android:layout_marginRight="88dp"
+        android:background="@drawable/btn_bg_selector"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:text="Ask without picture"
+        android:textColor="#ECF1F1"
+        android:textSize="15dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/takephoto"
+
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="280dp"
+
+        android:layout_marginRight="88dp"
+        android:background="@drawable/btn_bg_selector"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:text="Take picture"
+        android:textColor="#ECF1F1"
+        android:textSize="15dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/laboratory"-->
+<!--        android:layout_width="123dp"-->
+<!--        android:layout_height="154dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:background="@drawable/recomendedfood"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/recommmedfood" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

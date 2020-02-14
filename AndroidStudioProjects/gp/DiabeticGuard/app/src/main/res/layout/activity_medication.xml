@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--        android:onClick="btn"-->
+
+
+   <ImageButton
+       android:layout_width="wrap_content"
+       android:id="@+id/addmedication"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="280dp"
+       app:srcCompat="@drawable/add"
+       android:background="#33F6F7F6"
+
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="search for a medication"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:divider="#A8A8A8"
+        android:dividerHeight="12dp" />
+
+
+    <Button
+        android:id="@+id/makereport"
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:background="@drawable/btn_bg_selector"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:text="make report "
+        android:textColor="#ECF1F1"
+        android:textSize="15dp"
+        android:layout_gravity="center"  />
+
+
+
+
+</LinearLayout>

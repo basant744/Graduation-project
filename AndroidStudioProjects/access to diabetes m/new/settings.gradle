@@ -1,0 +1,2 @@
+include ':app', ':diabetes_m_addon_api_1.1'
+rootProject.name='new'

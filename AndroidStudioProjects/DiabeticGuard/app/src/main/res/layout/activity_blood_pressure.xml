@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Systolic"
+            />
+        <EditText
+            android:layout_width="100dp"
+            android:id="@+id/systolic"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="mmHg"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Diastolic"
+            />
+        <EditText
+            android:layout_width="100dp"
+            android:id="@+id/diastolic"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="mmHg"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Heart Rate"
+            />
+        <EditText
+            android:layout_width="100dp"
+            android:id="@+id/heartrate"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="bpm"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

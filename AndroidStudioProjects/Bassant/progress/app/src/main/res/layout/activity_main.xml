@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE4E4"
+    tools:context="com.example.progress.MainActivity">
+
+    <EditText
+        android:layout_width="64dp"
+        android:id="@+id/e"
+        android:layout_height="32dp"
+android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+
+    <ProgressBar
+
+        android:id="@+id/circularProgressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="50"
+        android:layout_centerInParent="true"
+        android:progressDrawable="@drawable/circular"
+        android:secondaryProgress="100"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/whitecircle"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:text="BPM"
+     android:paddingLeft="32dp"
+        android:textStyle="bold"
+
+        android:layout_centerInParent="true"
+        android:textColor="#E24B4B"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingEnd="80dp"
+      android:text="60"
+        android:paddingLeft="32dp"
+        android:textStyle="bold"
+
+       android:layout_centerInParent="true"
+        android:textColor="#E24B4B"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+      android:layout_centerHorizontal="true"
+
+        android:text="Heart rate measurement"
+        android:textColor="#E24B4B"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

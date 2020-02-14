@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">551528554513-ie7053g8r70k33nfp2ve214s9b6prf6o.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://graduation-project-e1f14.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">551528554513</string>
+    <string name="google_api_key" translatable="false">AIzaSyChnGXeN5xFIE0HQmEXns3C7lFSv6noU34</string>
+    <string name="google_app_id" translatable="false">1:551528554513:android:f0dad18e4990e4f85511b0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyChnGXeN5xFIE0HQmEXns3C7lFSv6noU34</string>
+    <string name="google_storage_bucket" translatable="false">graduation-project-e1f14.appspot.com</string>
+    <string name="project_id" translatable="false">graduation-project-e1f14</string>
+</resources>
